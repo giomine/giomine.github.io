@@ -4046,6 +4046,7 @@ input, select, textarea {
 		/* .project-card .image { width: 60% !important; } */
 		.project-card { flex-direction: row; width: 90%; }
 		.project-card .image { margin-top: 0; }
+		.size-me { width: 70% !important;}
 	}
 
 	.color-me{
