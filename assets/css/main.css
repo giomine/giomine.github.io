@@ -4043,10 +4043,9 @@ input, select, textarea {
 
 	/* for mobile landscape view */
 	@media (max-height: 500px) {
-		/* .project-card .image { width: 60% !important; } */
 		.project-card { flex-direction: row; width: 90%; }
 		.project-card .image { margin-top: 0; }
-		.size-me { width: 70% !important;}
+		.size-me { width: 70% !important; text-align: center; }
 	}
 
 	.color-me{
