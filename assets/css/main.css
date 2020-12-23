@@ -4037,6 +4037,10 @@ input, select, textarea {
 		.project-card .content { padding-top: 5%; }
 	}
 
+	@media (max-width: 1024px) {
+		.center-me { text-align: center; }
+	}
+
 	@media (max-width: 980px) {
 		.project-card .image { width: 60% !important; }
 	}
