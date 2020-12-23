@@ -4018,6 +4018,8 @@ input, select, textarea {
 
 	.project-card{
 		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 80%;
 		height: 80%;
 		margin: auto;
@@ -4030,7 +4032,20 @@ input, select, textarea {
 
 	@media (max-width: 1120px) {
 		.project-bg { text-align: center; }
-		.project-card { flex-direction: column; width: 100%; align-items: center; margin-top: 2%; outline: none; }
+		.project-card { flex-direction: column; width: 100%; align-items: center; outline: none; }
+		.project-card .image { margin-top: 5%; }
+		.project-card .content { padding-top: 5%; }
+	}
+
+	@media (max-width: 980px) {
+		.project-card .image { width: 60% !important; }
+	}
+
+	/* for mobile landscape view */
+	@media (max-height: 500px) {
+		/* .project-card .image { width: 60% !important; } */
+		.project-card { flex-direction: row; width: 90%; }
+		.project-card .image { margin-top: 0; }
 	}
 
 	.color-me{
