@@ -4011,7 +4011,9 @@ input, select, textarea {
 
 	.project-bg{
 		/* height: 407.34px !important; */
-		height: 425px !important;
+		/* height: 425px !important; */
+		height: 110%;
+		width: 100% ;
 	}
 
 	.project-card{
@@ -4024,6 +4026,11 @@ input, select, textarea {
 
 	.project-card-right{
 		flex-direction: row-reverse;
+	}
+
+	@media (max-width: 1120px) {
+		.project-bg { text-align: center; }
+		.project-card { flex-direction: column; width: 100%; align-items: center; margin-top: 2%; outline: none; }
 	}
 
 	.color-me{
