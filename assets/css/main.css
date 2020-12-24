@@ -2488,6 +2488,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ed4933;
+			background-color: #21b286;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2498,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #348069 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2686,7 +2687,7 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			margin: 2em 4em;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -2703,19 +2704,19 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(255, 255, 255, 0);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlight:nth-child(5) {
@@ -2977,6 +2978,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #2e3842;
+			background-color: #fff;
 		}
 
 		.wrapper.style3 {
@@ -3327,7 +3329,15 @@ input, select, textarea {
 		transition: opacity 0.5s ease;
 		opacity: 1;
 		padding-top: 3em;
-	}
+		/* background-image: linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/images/desert.jpg");
+		background-attachment: fixed;
+		background-position: 50%;
+		background-position-x: 50%;
+		background-position-y: center;
+		background-repeat: no-repeat;
+    	background-size: cover;
+    	padding-top: 0; */
+}
 
 		#page-wrapper:before {
 			background: rgba(0, 0, 0, 0);
@@ -3815,10 +3825,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sea1.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sea1.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sea1.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sea1.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3965,16 +3975,23 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: center top;
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
 	}
+
+	/* @media (max-width: 980px) {					background issues - disappears on small screens
+		body.landing #page-wrapper {
+			background-position: center;
+			background-repeat: repeat;
+		}
+	} */
 
 	body.landing #footer {
 		background-color: rgba(29, 36, 42, 0.9);
@@ -4010,8 +4027,6 @@ input, select, textarea {
 	}
 
 	.project-bg{
-		/* height: 407.34px !important; */
-		/* height: 425px !important; */
 		height: 110%;
 		width: 100% ;
 	}
@@ -4022,17 +4037,57 @@ input, select, textarea {
 		align-items: center;
 		width: 80%;
 		height: 80%;
-		margin: auto;
-		outline: 1px solid gray;
+		margin: 0 auto;
+	}
+
+
+	.project-card-all-contents{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+		height: 80%;
+	}
+
+	.project-card-all-contents-two{
+		flex-direction: row-reverse;
 	}
 
 	.project-card-right{
 		flex-direction: row-reverse;
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+
+	.project-card-left{
+		text-align: right !important;
+		margin-right: 0 !important;
+	}
+
+	.project-card-right-fix{
+		margin-left: 0 !important;
+	}
+
+	.project-left-padding{
+		padding-left: 0;
+		list-style-type: none;
+	}
+
+	.project-text{
+		color: rgba(128, 128, 128, 0.8);
+	}
+
+	.project-button{
+		width: 220px;
 	}
 
 	@media (max-width: 1120px) {
 		.project-bg { text-align: center; }
-		.project-card { flex-direction: column; width: 100%; align-items: center; outline: none; }
+		.project-card-all-contents { flex-direction: column; width: 100%; align-items: center; justify-content: center; }
+		.project-card-left { margin: 0 !important; }
+		.project-card-right-fix { margin: 0 !important; }
+		/* .project-left-padding { display: flex;  justify-content: center; } */
+		.project-text { text-align: center; width: 70%; margin: 0 auto; }
+		.center-me { margin-top: 5%; }
 		.project-card .image { margin-top: 5%; }
 		.project-card .content { padding-top: 5%; }
 	}
@@ -4045,6 +4100,11 @@ input, select, textarea {
 		.project-card .image { width: 60% !important; }
 	}
 
+	@media (max-width: 500px){
+		/* .project-card-all-contents { width: 90% !important; margin: 0; } */
+		.project-text { width: 100%; }
+	}
+
 	/* for mobile landscape view */
 	@media (max-height: 500px) {
 		.project-card { flex-direction: row; width: 90%; }
@@ -4054,4 +4114,70 @@ input, select, textarea {
 
 	.color-me{
 		color: rgb(236, 232, 232) !important;
+	}
+
+	.resume-banner{
+		background: #2e3842;
+		line-height: 3rem;
+		font-size: 13px;
+	}
+
+	.resume-h2{
+		padding: 11px 0 11px 20px;
+	}
+
+	.resume-link{
+		text-decoration: none !important;
+		border: none;
+	}
+
+	.resumepage{
+		background-color: rgb(222, 235, 236);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		top: -18px;
+	}
+
+	.resumepagecontainer{
+		width: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		top: 48px;
+	}
+
+	.resume-image{
+		margin: 35px 0 60px;
+		width: 100%;
+		/* position: relative;
+		top: 48px; */
+	}
+
+	.resume-footer{
+		position: relative;
+		margin-top: -18px;
+		padding: 70px 0 50px !important;
+	} 
+
+	@media (max-width: 850px){   /*1024px*/
+		/* .resumepage { height: 100vh !important; } */
+		.resumepagecontainer { width: 90%; height: 100%; } /*padding-top: 10px;*/
+		.resume-footer { padding: 20px 0 5px !important; }
+	}
+
+	@media (max-height: 500px){
+		.resumepage { height: 30% !important; }
+		.resumepagecontainer { width: 90%; height: 100%; }
+		.resume-footer { padding: 20px 0 5px !important;  }
+	}
+
+	/* .bg-photo{
+		background-image: url("./images/desert.jpg");
+	} */
+
+	.brighten-me{
+		color: rgba(255, 255, 255, 0.9);
 	}
