@@ -4031,6 +4031,11 @@ input, select, textarea {
 	.project-bg{
 		height: 110%;
 		width: 100% ;
+		padding: 2% 0 0 0;
+	}
+
+	.project-bg-pad-last{
+		padding-bottom: 2%;
 	}
 
 	.project-card{
@@ -4049,6 +4054,10 @@ input, select, textarea {
 		align-items: center;
 		width: 80%;
 		height: 80%;
+	}
+
+	.color-me-bg{
+		background-color: rgba(211, 211, 211, 0.096);
 	}
 
 	.project-card-all-contents-two{
@@ -4082,6 +4091,10 @@ input, select, textarea {
 		width: 220px;
 	}
 
+	.remove-dots{
+		list-style-type: none;
+	}
+
 
 	@media (max-width: 1120px) {
 		.project-bg { text-align: center; }
@@ -4106,6 +4119,8 @@ input, select, textarea {
 	@media (max-width: 500px){
 		/* .project-card-all-contents { width: 90% !important; margin: 0; } */
 		.project-text { width: 100%; }
+		.project-card .image { width: 100% !important; }
+		.project-card { width: 100%; padding: 5%; }
 	}
 
 	/* for mobile landscape view */
@@ -4189,5 +4204,5 @@ input, select, textarea {
 		/* border: 1px solid rgba(0, 128, 128, 0.171); */
 		/* box-shadow: 0px 0px 20px 5px rgb(160, 160, 160); */
 		box-shadow: 0px 0px 20px 5px rgb(126, 126, 126);
-		width: 400px !important;
+		width: 400px;
 	}
