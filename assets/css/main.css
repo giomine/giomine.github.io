@@ -4089,6 +4089,7 @@ input, select, textarea {
 
 	.project-button{
 		width: 220px;
+		margin: 1%;
 	}
 
 	.remove-dots{
