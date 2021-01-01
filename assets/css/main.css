@@ -4205,5 +4205,11 @@ input, select, textarea {
 		/* border: 1px solid rgba(0, 128, 128, 0.171); */
 		/* box-shadow: 0px 0px 20px 5px rgb(160, 160, 160); */
 		box-shadow: 0px 0px 20px 5px rgb(126, 126, 126);
-		width: 400px;
+		width: 650px !important;
+	}
+
+	.image:hover{
+		box-shadow: 0px 0px 20px 5px rgb(105, 105, 105);
+		transform: translateY(-0.2rem);
+   		transition: transform 150ms;
 	}
