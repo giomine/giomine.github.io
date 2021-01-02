@@ -4000,10 +4000,13 @@ input, select, textarea {
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
 		/* background-image: url("../../images/london-day-small.jpg"); */
-		background-image: url("../../images/laptop2.jpg");
-		background-position: bottom;
+		background-image: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop33.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop33.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop33.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop33.jpg");
+		background-position: left;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: stretch;
 	}
 
 	body.is-mobile.landing #footer {
