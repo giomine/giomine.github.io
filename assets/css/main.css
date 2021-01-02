@@ -3975,17 +3975,17 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: url("../../images/londonwater.jpg");
+		/* background-image: url("../../images/laptop3.jpg"); */
 
-		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg"); */
+		background-image: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
 
 		background-attachment: fixed;
-		background-position: top;
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: stretch;
 		padding-top: 0;
 	}
 
@@ -4000,8 +4000,8 @@ input, select, textarea {
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
 		/* background-image: url("../../images/london-day-small.jpg"); */
-		background-image: url("../../images/londonwater.jpg");
-		background-position: center;
+		background-image: url("../../images/laptop2.jpg");
+		background-position: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -4214,3 +4214,26 @@ input, select, textarea {
 		transform: translateY(-0.2rem);
    		transition: transform 150ms;
 	}
+
+	/* .gray-me{
+		color: rgb(34, 34, 34);
+	} */
+
+	/* .position-me{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		bottom: 150px;
+		bottom: 20%;
+	} */
+
+	/* .bg-me{
+		background-color: rgba(238, 255, 255, 0.842);
+		padding: 2% 2% 1.3%;
+		width: 518px;
+	} */
+
+	/* .unmargin-me{
+		margin-bottom: 0;
+	} */
