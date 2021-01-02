@@ -3975,12 +3975,15 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/london-day3.jpg");
+		background-image: url("../../images/londonwater.jpg");
+
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/londonsunset.jpg"); */
+
 		background-attachment: fixed;
-		background-position: center top;
+		background-position: top;
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
@@ -3996,11 +3999,9 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/london-day-small.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/london-day-small.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/london-day-small.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/london-day-small.jpg");
-		background-position: right center;
+		/* background-image: url("../../images/london-day-small.jpg"); */
+		background-image: url("../../images/londonwater.jpg");
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -4145,10 +4146,10 @@ input, select, textarea {
 		padding: 11px 0 11px 20px;
 	}
 
-	.resume-link{
+	/* .resume-link{
 		text-decoration: none !important;
 		border: none;
-	}
+	} */
 
 	.resumepage{
 		background-color: rgb(222, 235, 236);
