@@ -3975,9 +3975,9 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		/* background-image: url("../../images/laptop3.jpg"); */
+		/* background-image: url("../../images/london-big2.jpg"); */
 
-		background-image: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
+		background-image: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/london-big.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../../images/laptop3.jpg");
@@ -4240,3 +4240,18 @@ input, select, textarea {
 	/* .unmargin-me{
 		margin-bottom: 0;
 	} */
+
+	.triangleone{
+		position: absolute;
+		left: 5%;
+		top: 10%;
+		width: 25%;
+		opacity: 0.8;
+	}
+	.triangletwo{
+		position: absolute;
+		right: 5%;
+		top: 50%;
+		width: 25%;
+		opacity: 0.8;
+	}
